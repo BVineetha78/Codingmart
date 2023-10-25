@@ -1,0 +1,144 @@
+.close-icon {
+  font-size: 24px;
+  /* color: red;      */
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+}
+.signUpSideBar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* margin-right: -578px; */
+  overflow:hidden;
+  transition: margin 0.3s;
+}
+/* .signup-image{ */
+  /* display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px; */
+  /* position:relative;
+  right:20px; */
+
+/* .onclick {
+  position: absolute;
+  right: 0;
+  margin-right: 300px;
+  transition: margin 0.3s;
+} */
+.wholesection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  
+}
+.flexing{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.sign {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.login1 {
+  color: #fc8019;
+}
+.image {
+  position:relative;
+  right:10px;
+  float: right;
+  z-index: -1;
+}
+.boxs {
+  border: 1px solid #d4d5d9;
+  padding: 0;
+  display: block;
+  position: relative;
+  transform: translateZ(0);
+}
+.inside {
+  background-color: transparent;
+  line-height: normal;
+  border: none;
+  outline: none;
+  height: 70px;
+  width: 100%;
+  font-size: 17px;
+  margin: 0;
+  padding: 0 20px;
+  padding-top: 22px;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+.outside {
+  position: absolute;
+  right: 20px;
+  bottom: 26px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5d8ed5;
+  transform: translateZ(0);
+  cursor: pointer;
+  will-change: transform;
+  transition: 0.2s ease;
+  transform: translateY(70%);
+}
+.naming {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  padding-left: 20px;
+  line-height: 20px;
+  cursor: text;
+  transition: 0.2s ease;
+  width: 100%;
+  will-change: transform, color, font-size;
+  pointer-events: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7e808c;
+  transform: translateY(-70%);
+}
+.boxing1 {
+  margin-top: 30px;
+  /* font-size: 1.1rem; */
+  font-weight: 500;
+  color: #5d8ed5;
+  cursor: pointer;
+  padding: 0px;
+  outline: none;
+}
+.button {
+  outline: none;
+}
+.continue {
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 2 2rem;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #fc8019;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+.dashicon {
+  font-size: 24px; 
+  color: black; 
+}
